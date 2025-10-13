@@ -1,0 +1,62 @@
+body {
+    background-color: #131313;
+    color: #FFFFFF;
+    font-family: "Ubuntu";
+    width: 100%;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    src: url("Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu-bold";
+    font-weight: 700;
+    src: url("Ubuntu-Bold.ttf");
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo {
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 26px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Ubuntu-bold";
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 10px 0;
+}
+
+p {
+    font-family: "Ubuntu";
+    font-size: 16px;
+    padding: 20px 10px;
+}
+
+.code-blk {
+    background-color: #202020;
+    padding: 0 20px;
+    margin: 10px;
+}
+
+.code-txt {
+    font-family: monospace;
+}
+
+strong {
+    color: #228844;
+}
+
+.txt-blk {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fff;
+}
